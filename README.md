@@ -1,7 +1,23 @@
-#If you run npm start , application will start in development mode :
+# If you run
 
-> variables will be taken from .env.development.local
+> REACT_APP_STAGE=staging npm run start
 
-#If you run npm run build , application will start in production mode :
+```
+It'll take config variables from staging environment
+```
 
-> variables will be taken from .env.production.local
+# If you run
+
+> REACT_APP_STAGE=prod npm run start
+
+```
+It'll take config variables from production environment
+```
+
+# If you run
+
+> REACT_APP_STAGE=dev npm run start
+
+```
+It'll take config variables from development environment
+```
